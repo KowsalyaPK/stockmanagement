@@ -8,6 +8,7 @@ var express         = require('express'),
     cookieParser    = require('cookie-parser');
 
 var expressWinston = require('./utils/winstonLogger').expressWinstonLogger;
+// var mongoDB = require('./utils/mongoDB');
 
 var app = express();
 app.use(compression());
