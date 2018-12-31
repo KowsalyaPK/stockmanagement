@@ -1,0 +1,18 @@
+.active .side-menu-item-container {
+    background-color: #f3ecff;
+}
+
+.side-menu-item-container {
+    height: 56px;
+    border-bottom: solid 1px #eaeef0;
+    text-align: center;
+    padding: 15px 0px;
+    min-width: 56px;
+}
+
+.side-menu-item {
+    height: 24px;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}

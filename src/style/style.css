@@ -1,0 +1,22 @@
+.avatar {
+    vertical-align: middle;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 500;
+    height: 21px;
+    line-height: normal;
+    color: #212121;
+}
+
+.sub-title {
+    font-size: 14px;
+    height: 16px;
+    color: #ffffff;
+}
+
+.data-container {
+    padding: 0px 16px;
+    align-self: center;
+}
