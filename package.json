@@ -10,6 +10,7 @@
     "server_start": "NODE_ENV=stage node server/server.js"
   },
   "dependencies": {
+    "@material-ui/core": "^3.8.1",
     "config": "^3.0.1",
     "cookie-parser": "^1.4.3",
     "express-winston": "^3.0.1",
