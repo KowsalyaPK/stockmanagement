@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Switch } from "react-router-dom";
 
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
@@ -14,6 +13,7 @@ import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 
 import Header from '../header';
 import SideMenu from '../sideMenu';
+import RouteComponent from './RouteComponent';
 import './style.css';
 
 
@@ -136,11 +136,7 @@ class MainComponent extends Component {
           })}
         >
           <div className={classes.drawerHeader} />
-
-          <div className="view-container">
-            <Switch>
-            </Switch>
-          </div>
+          <RouteComponent />
         </main>
       </div>
     );

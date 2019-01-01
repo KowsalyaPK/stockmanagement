@@ -9,3 +9,7 @@
 .data-container .title {
     color: #ffffff;
 }
+
+.view-container {
+    padding: 20px;
+}

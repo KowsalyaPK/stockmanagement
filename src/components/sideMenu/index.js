@@ -7,9 +7,9 @@ export default class SideMenu extends Component {
   render () {
     return (
       <div>
-        <NavLink to={`/transactions`} activeClassName="active">
+        <NavLink to="/stocks" activeClassName="active">
           <div className="side-menu-item-container">
-            <div className="side-menu-item info-icon"></div>
+            <div className="side-menu-item stock-icon"></div>
           </div>
         </NavLink>
         {/* TODO */}

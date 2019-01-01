@@ -14,7 +14,6 @@ class App extends Component {
         <Grid container direction="row" alignItems="stretch" className="full-height">
           <Grid item xs={12}>
             <MainComponent></MainComponent>
-            Stock Management App
           </Grid>
          </Grid>
       </Grid>
