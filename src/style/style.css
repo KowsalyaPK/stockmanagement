@@ -20,3 +20,12 @@
     padding: 0px 16px;
     align-self: center;
 }
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+input:focus {
+    box-shadow: none;
+    outline: none;
+}

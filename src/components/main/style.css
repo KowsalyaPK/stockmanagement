@@ -13,3 +13,31 @@
 .view-container {
     padding: 20px;
 }
+
+.file-input {
+    position: absolute;
+    z-index: -1;
+    word-break: break-all;
+    width: 190px;
+    font-size: 5px;
+}
+
+.file-input+label {
+    background-color: #ffffff;
+    font-size: 18px;
+    color: #314394;
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #673ab7;
+    padding: 5px 20px;
+    text-align: center;
+    width: 150px;
+}
+
+.file-input:focus+label,
+.file-input+label:focus,
+.file-input+label:hover {
+    outline: 1px solid #673ab7;
+    outline: -webkit-focus-ring-color #673ab7 1px;
+    box-shadow: 1px 4px 4px #ccc;
+}
